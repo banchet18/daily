@@ -1,0 +1,44 @@
+.header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  padding: 20px;
+}
+.logoImg {
+  margin-left: 50px;
+  height: 30px;
+  width: 130px;
+  cursor: pointer;
+}
+.logoImg:hover {
+  transition: 0.5s;
+  transform: scale(1.2);
+  border: 2px solid white;
+}
+.logoImg img {
+  object-fit: cover;
+  background-size: cover;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-right: 50px;
+  text-decoration: none;
+}
+.navHome:hover,
+.navAbout:hover {
+  transition: 0.8s;
+  transform: scale(1.2);
+  border: 2px solid white;
+}
+.navHome,
+.navAbout {
+  padding: 4px;
+}
