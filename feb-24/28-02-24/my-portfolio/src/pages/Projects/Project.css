@@ -1,8 +1,17 @@
-.aboutPage {
+.projectPage {
   position: absolute;
   border: 2px solid blue;
   width: 100%;
   top: 74px;
   color: white;
   height: 89vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.card {
+  border: 2px solid white;
+  min-width: 40%;
 }
