@@ -30,13 +30,31 @@
   border-radius: 50px;
   font-weight: 900;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+}
+.weatherName:hover {
+  transition: 0.8s;
+  transform: scale(1.1);
+  background-color: rgba(255, 0, 0, 0.667);
 }
 .projectsicon {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: last baseline;
   gap: 20px;
-  font-size: 30px;
   margin-top: 10px;
+}
+a {
+  text-decoration: none;
+}
+.projectButton {
+  font-size: 20px;
+  padding: 4px;
+  border-radius: 5px;
+}
+.projectButton:hover {
+  transform: scale(1.1);
+  background-color: red;
 }

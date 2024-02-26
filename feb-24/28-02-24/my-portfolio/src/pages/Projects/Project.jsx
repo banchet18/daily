@@ -14,10 +14,20 @@ const Project = () => {
           <div className="weatherName">
             Redux Cart
             <div className="projectsicon">
-              <span>
-                <FaGithub />
-              </span>
-              <span>Live</span>
+              <button className="projectButton">
+                <a
+                  href="https://github.com/banchet18/reacts-projects/tree/main/redux-project"
+                  target="blank"
+                >
+                  <FaGithub />
+                </a>
+              </button>
+
+              <button className="projectButton">
+                <a href="https://reduxaddtocart.netlify.app/" target="blank">
+                  Live
+                </a>
+              </button>
             </div>
           </div>
         </div>
