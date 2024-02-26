@@ -14,3 +14,22 @@ img {
   background-size: cover;
   object-fit: cover;
 }
+@media (min-width: 320px) and (max-width: 480px) {
+  .chetan {
+    font-size: 35px;
+    text-align: center;
+  }
+  .logoImg {
+    transform: translateX(-40px);
+  }
+
+  .navigation {
+    transform: translateX(60px);
+  }
+  .icons {
+    transform: translateX(20px) translateY(-40px);
+  }
+  .nameSection {
+    transform: translateX(20px);
+  }
+}

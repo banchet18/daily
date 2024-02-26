@@ -2,7 +2,6 @@
   width: 100%;
   position: absolute;
   top: 0;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,7 +15,6 @@
   cursor: pointer;
 }
 .logoImg:hover {
-  transition: 0.5s;
   transform: scale(1.2);
   border: 2px solid white;
 }
@@ -34,7 +32,6 @@
 }
 .navHome:hover,
 .navAbout:hover {
-  transition: 0.8s;
   transform: scale(1.2);
   border: 2px solid white;
 }

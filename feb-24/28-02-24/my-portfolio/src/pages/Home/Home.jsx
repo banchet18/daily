@@ -1,8 +1,13 @@
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import "./Home.css";
 const Home = () => {
   return (
     <div className="homeSection">
-      <div className="icons">hhbds</div>
+      <div className="icons">
+        <FaGithub className="iconGithub" />
+        <FaLinkedin className="iconLinkedin" />
+      </div>
       <div className="nameSection">
         <div className="chetan">
           ChetanKumar Banjara
