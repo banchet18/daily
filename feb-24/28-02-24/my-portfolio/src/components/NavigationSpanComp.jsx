@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
-const NavigationSpanComp = () => {
+import "./Header/Header.css";
+const NavigationSpanComp = ({ className, name, page }) => {
   return (
-    <span className="navHome">
-      <Link to="/" style={{ textDecoration: "none", color: "white" }}>
-        Home
+    <span className={className}>
+      <Link to={page} style={{ textDecoration: "none", color: "white" }}>
+        {name}
       </Link>
     </span>
   );

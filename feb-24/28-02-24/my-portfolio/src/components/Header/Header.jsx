@@ -1,33 +1,19 @@
 import "./Header.css";
 import NavigationSpanComp from "../NavigationSpanComp";
-import { Link } from "react-router-dom";
+import ChetanLogoComp from "../ChetanLogoComp";
 
 const Header = () => {
   return (
     <>
       <header className="header">
-        <div className="logoImg">
-          <img
-            src="https://i1.sndcdn.com/visuals-yDbk2r04GeDu5z8g-a1sRrg-t1240x260.jpg"
-            alt=""
-          />
-        </div>
+        <ChetanLogoComp />
         <nav className="navigation">
-          <NavigationSpanComp />
-          {/* <span className="navHome">
-            <Link to="/" style={{ textDecoration: "none", color: "white" }}>
-              Home
-            </Link>
-          </span>
-
-          <span className="navAbout">
-            <Link
-              to="/about"
-              style={{ textDecoration: "none", color: "white" }}
-            >
-              About
-            </Link>
-          </span> */}
+          <NavigationSpanComp className="navHome" name="Home" page="/" />
+          <NavigationSpanComp
+            className="navProject"
+            name="Project"
+            page="Project"
+          />
         </nav>
       </header>
     </>

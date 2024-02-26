@@ -32,11 +32,11 @@
   /* border: 2px solid white; */
 }
 .navHome:hover,
-.navAbout:hover {
+.navProject:hover {
   transform: scale(1.2);
 }
 .navHome,
-.navAbout {
+.navProject {
   /* padding: 4px; */
   border: 2px solid white;
   padding: 4px;

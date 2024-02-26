@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./components/Header/Header";
-import About from "./pages/About/About";
+import Project from "./pages/Projects/Project";
 import Home from "./pages/Home/Home";
 import BackgroundComp from "./components/BackgroundComp";
 
@@ -14,7 +14,7 @@ const App = () => {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/project" element={<Project />} />
         </Routes>
       </div>
     </BrowserRouter>
