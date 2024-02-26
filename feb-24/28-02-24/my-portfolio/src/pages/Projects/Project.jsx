@@ -12,7 +12,7 @@ const Project = () => {
             />
           </div>
           <div className="weatherName">
-            Weather App
+            Redux Cart
             <div className="projectsicon">
               <span>
                 <FaGithub />
