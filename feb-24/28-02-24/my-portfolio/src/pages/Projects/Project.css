@@ -13,7 +13,7 @@
 .card {
   margin-top: 0;
   border: 2px solid white;
-  /* min-width: 100px; */
+  min-width: 100px;
   max-width: 500px;
   position: relative;
 }
