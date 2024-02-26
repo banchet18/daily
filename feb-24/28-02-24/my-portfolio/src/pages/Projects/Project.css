@@ -12,9 +12,32 @@
   gap: 20px;
 }
 .card {
+  margin-top: 0;
   border: 2px solid white;
-  min-width: 40%;
+  /* min-width: 100px; */
+  max-width: 500px;
+  position: relative;
 }
-.first {
-  background-color: brown;
+.third {
+  margin-top: -80px;
+}
+.weatherName {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  font-size: 40px;
+  background-color: rgba(0, 0, 0, 0.581);
+  padding: 20px;
+  border-radius: 50px;
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+}
+.projectsicon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 30px;
+  margin-top: 10px;
 }

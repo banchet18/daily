@@ -15,8 +15,7 @@
   cursor: pointer;
 }
 .logoImg:hover {
-  transform: scale(1.2);
-  border: 2px solid white;
+  transform: scale(1.1);
 }
 .logoImg img {
   object-fit: cover;
@@ -34,10 +33,11 @@
 .navHome:hover,
 .navProject:hover {
   transform: scale(1.2);
+  border-bottom: 2px solid white;
 }
 .navHome,
 .navProject {
   /* padding: 4px; */
-  border: 2px solid white;
+  border-bottom: 2px solid black;
   padding: 4px;
 }
