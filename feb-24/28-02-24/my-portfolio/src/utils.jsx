@@ -4,7 +4,7 @@ const Projects = [
     img: "https://t4.ftcdn.net/jpg/04/97/80/99/360_F_497809944_FMo3DO6j7XSlb9rZKOlnqaaWoJhuZXBm.jpg",
     projectName: "redux app",
     git: "https://github.com/banchet18/reacts-projects/tree/main/redux-project",
-    demo: "blank",
+    demo: "https://reduxaddtocart.netlify.app/",
   },
   {
     id: 2,
