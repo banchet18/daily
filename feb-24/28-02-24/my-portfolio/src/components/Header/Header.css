@@ -29,13 +29,15 @@
   gap: 30px;
   margin-right: 50px;
   text-decoration: none;
+  /* border: 2px solid white; */
 }
 .navHome:hover,
 .navAbout:hover {
   transform: scale(1.2);
-  border: 2px solid white;
 }
 .navHome,
 .navAbout {
+  /* padding: 4px; */
+  border: 2px solid white;
   padding: 4px;
 }

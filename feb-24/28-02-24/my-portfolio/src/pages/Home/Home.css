@@ -19,6 +19,7 @@
 .iconGithub:hover,
 .iconLinkedin:hover {
   transform: scale(1.2);
+  cursor: pointer;
 }
 .nameSection {
   width: 95%;

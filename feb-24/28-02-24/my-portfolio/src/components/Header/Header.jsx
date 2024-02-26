@@ -1,4 +1,5 @@
 import "./Header.css";
+import NavigationSpanComp from "../NavigationSpanComp";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -12,7 +13,8 @@ const Header = () => {
           />
         </div>
         <nav className="navigation">
-          <span className="navHome">
+          <NavigationSpanComp />
+          {/* <span className="navHome">
             <Link to="/" style={{ textDecoration: "none", color: "white" }}>
               Home
             </Link>
@@ -25,7 +27,7 @@ const Header = () => {
             >
               About
             </Link>
-          </span>
+          </span> */}
         </nav>
       </header>
     </>
