@@ -1,0 +1,8 @@
+.aboutDiv {
+  position: absolute;
+  color: white;
+  top: 74px;
+  border: 2px solid red;
+  width: 100%;
+  height: 89vh;
+}

@@ -14,6 +14,11 @@ const Header = () => {
             name="Project"
             page="Project"
           />
+          <NavigationSpanComp
+            className="navProject"
+            name="About"
+            page="about"
+          />
         </nav>
       </header>
     </>

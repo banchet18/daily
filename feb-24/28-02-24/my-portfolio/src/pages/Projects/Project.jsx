@@ -6,10 +6,10 @@ const Project = () => {
     <>
       <div className="projectPage">
         {Projects.map((project) => {
-          const { img, projectName, git, demo } = project;
+          const { img, projectName, git, demo, id } = project;
           return (
             <>
-              <div className="card first">
+              <div className="card first" key={id}>
                 <div>
                   <img src={img} alt="" />
                 </div>
