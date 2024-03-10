@@ -2,7 +2,7 @@
   position: absolute;
   color: white;
   top: 74px;
-  border: 2px solid red;
+
   width: 100%;
   height: 89vh;
   display: flex;
@@ -18,7 +18,6 @@
   padding: 5px;
   font-size: 40px;
   font-weight: 900;
-  border-bottom: 2px solid black;
 }
 .box1span:hover {
   transition: 0.1s;
@@ -26,16 +25,24 @@
   border-bottom: 2px solid rgb(148, 241, 8);
 }
 .box2 {
-  border: 2px solid white;
   height: 79vh;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
+  flex-wrap: wrap;
 }
 .box2first {
   width: 400px;
 }
+.box2first img {
+  border-radius: 50%;
+}
 .box2second {
+  width: 800px;
+  font-size: 22px;
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
   border: 2px solid white;
 }

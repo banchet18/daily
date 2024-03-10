@@ -20,11 +20,11 @@ img {
     text-align: center;
   }
   .logoImg {
-    transform: translateX(-40px);
+    display: none;
   }
 
   .navigation {
-    transform: translateX(60px);
+    transform: translateX(100px);
   }
   .icons {
     transform: translateX(20px) translateY(-40px);
